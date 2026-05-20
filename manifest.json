@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Focus Mode",
+  "version": "1.0",
+  "description": "Hide difficulty and acceptance info on LeetCode",
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

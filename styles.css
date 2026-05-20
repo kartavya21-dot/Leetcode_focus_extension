@@ -1,0 +1,8 @@
+.leetcode-focus-hidden {
+    visibility: hidden !important;
+}
+
+/* For problem page accepted count */
+.leetcode-focus-remove {
+    display: none !important;
+}
